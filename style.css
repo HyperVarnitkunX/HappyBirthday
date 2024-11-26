@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3e6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #ffe0b2, #ffcccb);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6f61;
+}
+
+.birthday-message {
+    max-height: 300px; /* Restrict height for scrolling */
+    overflow-y: auto; /* Enable vertical scroll */
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border: 2px solid #ff6f61;
+    outline: 4px dashed #fbc02d; /* Inspired by emojis 🎂🥳💖🎉🎊 */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.birthday-message::-webkit-scrollbar {
+    width: 8px;
+}
+
+.birthday-message::-webkit-scrollbar-thumb {
+    background-color: #ff6f61;
+    border-radius: 10px;
+}
+
+.birthday-message::-webkit-scrollbar-track {
+    background: #ffe0b2;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    background-color: #ff6f61;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
